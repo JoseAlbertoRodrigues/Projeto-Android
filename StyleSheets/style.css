@@ -94,3 +94,47 @@ nav > ul.nav-menu > li > a:hover {
     background-color: var(--cor3);
     border-radius: 0 30px;
 }
+
+main {
+    width: 100%;
+    background-color: var(--cor3);
+}
+
+main p {
+    margin: 15px 10px;
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main strong {
+    font-weight: bold;
+    color: var(--cor5);
+}
+
+main a {
+    padding: 2px 6px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor5);
+    background-color: var(--cor1);
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+main img {
+    width: 100%;
+}
+
+main img#pequena {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+
+
