@@ -130,7 +130,7 @@ main img {
     width: 100%;
 }
 
-main img#pequena {
+main img.pequena {
     display: block;
     max-width: 350px;
     margin: auto;
@@ -197,4 +197,3 @@ section#depoimento > h2 {
     font-weight: normal;
     color: var(--cor5);
 }
-
