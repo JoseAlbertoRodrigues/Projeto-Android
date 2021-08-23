@@ -120,3 +120,21 @@ main a {
     color: var(--cor5);
     background-color: var(--cor1);
 }
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+main img {
+    width: 100%;
+}
+
+main img#pequena {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+
+
