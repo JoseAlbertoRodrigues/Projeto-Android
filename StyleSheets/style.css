@@ -69,3 +69,28 @@ nav {
     text-align: center;
     background-color: var(--cor4);
 }
+
+nav > ul.nav-menu {
+    list-style-type: none;
+}
+
+nav > ul.nav-menu > li {
+    display: inline-block;
+    padding: 10px;
+    /* background-color: black; */
+}
+
+nav > ul.nav-menu > li > a {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+nav > ul.nav-menu > li > a:hover {
+    text-decoration: underline;
+    color: var(--cor5);
+    background-color: var(--cor3);
+    border-radius: 0 30px;
+}
