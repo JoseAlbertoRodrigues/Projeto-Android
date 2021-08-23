@@ -166,3 +166,22 @@ section#introcucao > picture {
 section#introducao > p {
     flex: 1 200px;
 }
+
+section#conteudo {
+    height: 100%;
+    column-count: 2;
+    column-width: 245px;
+    column-gap: 40px;
+    margin: 0 -20px;
+    padding: 20px;
+    background-color: var(--cor0);
+}
+
+section#conteudo > h2 {
+    padding: 30px;
+    font-family: var(--fonte-android);
+    font-size: 1.3em;
+    font-weight: normal;
+    color: var(--cor4);
+}
+
