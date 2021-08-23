@@ -130,7 +130,7 @@ main img {
     width: 100%;
 }
 
-main img#pequena {
+main img.pequena {
     display: block;
     max-width: 350px;
     margin: auto;
@@ -157,10 +157,6 @@ section#introducao > h1 {
     font-weight: normal;
     text-align: center;
     color: var(--cor5);
-}
-
-section#introcucao > picture {
-    flex: 1 200px;
 }
 
 section#introducao > p {
@@ -201,4 +197,3 @@ section#depoimento > h2 {
     font-weight: normal;
     color: var(--cor5);
 }
-
