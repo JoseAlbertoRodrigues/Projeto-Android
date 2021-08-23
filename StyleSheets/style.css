@@ -136,5 +136,33 @@ main img#pequena {
     margin: auto;
 }
 
+article {
+    padding: 20px;
+}
 
+section#introducao {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    margin: -20px -20px 0 -20px;
+    padding: 20px;
+    background-color: var(--cor1);
+}
 
+section#introducao > h1 {
+    padding: 30px;
+    margin: auto;
+    font-family: var(--fonte-android);
+    font-size: 1.8em;
+    font-weight: normal;
+    text-align: center;
+    color: var(--cor5);
+}
+
+section#introcucao > picture {
+    flex: 1 200px;
+}
+
+section#introducao > p {
+    flex: 1 200px;
+}
