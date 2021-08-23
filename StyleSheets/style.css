@@ -224,7 +224,7 @@ section#adicional {
 section#adicional > aside {
     padding: 10px;
     background-color: var(--cor2);
-    box-shadow: 3px 3px  8px rgba(0, 0, 0, 0.415);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.415);
     border-radius: 10px;
 }
 
@@ -233,11 +233,11 @@ section#adicional > aside > h3 {
     padding: 10px;
     color: black;
     background-color: var(--cor3);
-    border-radius:  10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 section#adicional > aside > ul {
-    column-span: 2;
+    columns: 2;
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
 }
