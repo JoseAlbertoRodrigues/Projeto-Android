@@ -50,3 +50,16 @@ header > h1 {
     color: white;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.315);
 }
+
+header > p {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.315);
+}
+
