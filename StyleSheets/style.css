@@ -241,3 +241,22 @@ section#adicional > aside > ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
 }
+
+footer {
+    padding: 20px;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    background-color: var(--cor5);
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
