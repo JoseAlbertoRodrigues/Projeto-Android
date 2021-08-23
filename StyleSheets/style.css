@@ -159,10 +159,6 @@ section#introducao > h1 {
     color: var(--cor5);
 }
 
-section#introcucao > picture {
-    flex: 1 200px;
-}
-
 section#introducao > p {
     flex: 1 200px;
 }
