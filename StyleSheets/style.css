@@ -185,3 +185,20 @@ section#conteudo > h2 {
     color: var(--cor4);
 }
 
+section#depoimento {
+    height: 100%;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--cor1);
+}
+
+section#depoimento > h2 {
+    padding: 30px;
+    font-family: var(--fonte-android);
+    font-size: 1.3em;
+    font-weight: normal;
+    color: var(--cor5);
+}
+
